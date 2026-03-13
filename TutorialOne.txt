@@ -1,0 +1,36 @@
+Int n = 0;
+
+(N-1) * 2**0 ;
+
+(X >> 1 ) * (2**1);
+
+For (x = 0; x << 0; x++)
+{	
+	x * 2;
+}
+
+ALGORITHM BinaryToDecimal(m)
+	// Given the positive binary number with digits n
+	// returns the decimal representation
+Sum ← 0
+
+K ← 0
+
+While n > k do
+	sum ← bk * 2k
+	k ← k + 1
+	return sum
+
+ALGORITHM MinDistance(A[0...n-1])
+	//Input: Array A[0...n1] of numbers
+	//Output: Minimum distance between two of its elements
+	
+	dmin ← ∞
+	for i ← to  n -1 do
+		for j ← 0 to n-1 do
+			if i ≠ and | A[i] - A[j] < dmin
+			dmin ← |A[i] - A[j]|
+		return dmin
+
+
+

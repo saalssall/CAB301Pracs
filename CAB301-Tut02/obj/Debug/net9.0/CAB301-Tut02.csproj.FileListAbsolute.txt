@@ -1,0 +1,15 @@
+/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/Practicals/CAB301-Tut02/obj/Debug/net9.0/CAB301-Tut02.GeneratedMSBuildEditorConfig.editorconfig
+/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/Practicals/CAB301-Tut02/bin/Debug/net9.0/CAB301-Tut02
+/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/Practicals/CAB301-Tut02/bin/Debug/net9.0/CAB301-Tut02.deps.json
+/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/Practicals/CAB301-Tut02/bin/Debug/net9.0/CAB301-Tut02.runtimeconfig.json
+/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/Practicals/CAB301-Tut02/bin/Debug/net9.0/CAB301-Tut02.dll
+/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/Practicals/CAB301-Tut02/bin/Debug/net9.0/CAB301-Tut02.pdb
+/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/Practicals/CAB301-Tut02/obj/Debug/net9.0/CAB301-Tut02.AssemblyInfoInputs.cache
+/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/Practicals/CAB301-Tut02/obj/Debug/net9.0/CAB301-Tut02.AssemblyInfo.cs
+/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/Practicals/CAB301-Tut02/obj/Debug/net9.0/CAB301-Tut02.csproj.CoreCompileInputs.cache
+/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/Practicals/CAB301-Tut02/obj/Debug/net9.0/CAB301-Tut02.sourcelink.json
+/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/Practicals/CAB301-Tut02/obj/Debug/net9.0/CAB301-Tut02.dll
+/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/Practicals/CAB301-Tut02/obj/Debug/net9.0/refint/CAB301-Tut02.dll
+/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/Practicals/CAB301-Tut02/obj/Debug/net9.0/CAB301-Tut02.pdb
+/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/Practicals/CAB301-Tut02/obj/Debug/net9.0/CAB301-Tut02.genruntimeconfig.cache
+/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/Practicals/CAB301-Tut02/obj/Debug/net9.0/ref/CAB301-Tut02.dll
