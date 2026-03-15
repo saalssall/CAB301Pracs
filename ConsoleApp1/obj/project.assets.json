@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/Practicals/ConsoleApp1/ConsoleApp1.csproj",
+      "projectUniqueName": "/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/CAB301Pracs/ConsoleApp1/ConsoleApp1.csproj",
       "projectName": "ConsoleApp1",
-      "projectPath": "/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/Practicals/ConsoleApp1/ConsoleApp1.csproj",
+      "projectPath": "/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/CAB301Pracs/ConsoleApp1/ConsoleApp1.csproj",
       "packagesPath": "/Users/hamidullahrezae/.nuget/packages/",
-      "outputPath": "/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/Practicals/ConsoleApp1/obj/",
+      "outputPath": "/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/CAB301Pracs/ConsoleApp1/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/hamidullahrezae/.nuget/NuGet/NuGet.Config"

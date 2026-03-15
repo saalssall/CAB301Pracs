@@ -3,3 +3,8 @@
 /Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/Practicals/ConsoleApp1/obj/Debug/net10.0/ConsoleApp1.AssemblyInfo.cs
 /Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/Practicals/ConsoleApp1/obj/Debug/net10.0/ConsoleApp1.csproj.CoreCompileInputs.cache
 /Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/Practicals/ConsoleApp1/obj/Debug/net10.0/ConsoleApp1.sourcelink.json
+/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/CAB301Pracs/ConsoleApp1/obj/Debug/net10.0/ConsoleApp1.GeneratedMSBuildEditorConfig.editorconfig
+/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/CAB301Pracs/ConsoleApp1/obj/Debug/net10.0/ConsoleApp1.AssemblyInfoInputs.cache
+/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/CAB301Pracs/ConsoleApp1/obj/Debug/net10.0/ConsoleApp1.AssemblyInfo.cs
+/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/CAB301Pracs/ConsoleApp1/obj/Debug/net10.0/ConsoleApp1.csproj.CoreCompileInputs.cache
+/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/CAB301Pracs/ConsoleApp1/obj/Debug/net10.0/ConsoleApp1.sourcelink.json
