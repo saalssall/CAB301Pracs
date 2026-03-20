@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "Z8j6NN5OJYc=",
+  "success": true,
+  "projectFilePath": "/Users/hamidullahrezae/Downloads/Stack/Stack.csproj",
+  "expectedPackageFiles": [
+    "/Users/hamidullahrezae/.nuget/packages/microsoft.netcore.app.ref/8.0.24/microsoft.netcore.app.ref.8.0.24.nupkg.sha512",
+    "/Users/hamidullahrezae/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.24/microsoft.aspnetcore.app.ref.8.0.24.nupkg.sha512",
+    "/Users/hamidullahrezae/.nuget/packages/microsoft.netcore.app.host.osx-arm64/8.0.24/microsoft.netcore.app.host.osx-arm64.8.0.24.nupkg.sha512"
+  ],
+  "logs": []
+}

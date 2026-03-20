@@ -96,7 +96,8 @@
       <workItem from="1773538667095" duration="7422000" />
       <workItem from="1773560238728" duration="152000" />
       <workItem from="1773560395013" duration="82000" />
-      <workItem from="1773624249986" duration="1209000" />
+      <workItem from="1773624249986" duration="1929000" />
+      <workItem from="1773970065551" duration="1285000" />
     </task>
     <servers />
   </component>
@@ -122,19 +123,6 @@
           <properties exception="System.Threading.ThreadAbortException" breakIfHandledByOtherCode="false" displayValue="System.Threading.ThreadAbortException" />
           <option name="timeStamp" value="3" />
         </breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Program.cs</url>
-          <line>171</line>
-          <properties documentPath="$PROJECT_DIR$/Program.cs" containingFunctionPresentation="Method 'Main'">
-            <startOffsets>
-              <option value="5064" />
-            </startOffsets>
-            <endOffsets>
-              <option value="5095" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>

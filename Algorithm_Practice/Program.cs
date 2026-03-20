@@ -11,6 +11,8 @@ namespace Algorithm_Practice
             2. Finding the minimum value in an array
             3. Finding the maximum value in an array
             4. Bubble sort (sorting elements in an array from lowest to highest)
+            5. Minimum distance
+            
 
             Input: Array of A[0...n-1] numbers
             Output: for each number, print whether it is even or odd
@@ -168,7 +170,7 @@ namespace Algorithm_Practice
         
         int[] sortArray = { 12, 43, 44, 3, 11, 49 };
         int n = sortArray.Length;
-
+        
         for (int i = 0; i < n - 1; i++)
         {
             bool swapped = false;
@@ -182,19 +184,69 @@ namespace Algorithm_Practice
                     swapped = true;
                 }
             }
+
             if (!swapped)
-                {
-                break;          
-                }
+            {
+                break;
+            }
         }
         
         Console.WriteLine("Sorted array: " + string.Join(", ", sortArray));
+        
+        /*** 5. Minimum distance (finding the minimum distance between two points)
+        Input: Array A[0...n-1] of numbers   
+        Output: minimum distance between two elements
 
+        Steps:
+        1. Go through the elements in the array one by one
+        2. For each value, compare it with the next value
+            //If the value is higher, swap the values so that the higher value comes last
+        3. Go through all the elements in the array
+        4. Print the sorted array
 
+        Pseudocode:
+       minDistance(A, n)
+            dmin ← infinity
+               for i ← 0 to n - 2 do
+                   for j ← i + 1 to n -1 do
+                        if |A[i] - A[j]| < dmin then
+                            dmin ← |A[i] - A[j]|
+                        end if 
+                    end for
+                end for
+            return dmin
+        ***/
+        
+        Console.WriteLine("------------");
+
+       
+
+        static int minDistance(int [] values)
+        {
+            int dmin = 10000;
+            for (int i = 0; i < values.Length; i++)
+            {
+                for (int j = 0; j < values.Length; j++)
+                {
+                    if (i!=j  && Math.Abs(values[i] - values[j]) < dmin)
+                    {
+                        dmin = Math.Abs(values[i] - values[j]);
+                    }
+                }
+            }
+            return dmin;
+        }
+        
+        int[] numbers1 = { 3, 4, 55, 9, 6, 5, 10 };
+        int results = minDistance(numbers1);
+        Console.WriteLine("The minimum distance is: {0:d}", results);
+        Console.Write("\nPress any key to continue . . . ");
+        Console.ReadKey();
 
         }
     }
 }
+
 
 
 
