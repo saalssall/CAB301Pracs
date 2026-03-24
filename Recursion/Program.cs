@@ -151,6 +151,24 @@ namespace Recursion
             Console.WriteLine(counted);
             Console.WriteLine("------------");
             
+            int printFun(int test)
+            {
+                if (test < 1)
+                     return -1;
+                else {
+                    Console.Write(test + " ");
+
+                    // statement 2
+                    printFun(test - 1);
+
+                    Console.Write(test + " ");
+                    return -1;
+                }
+            }
+
+            // Driver Code
+            int test = 3;
+            printFun(test);
 
 
         }

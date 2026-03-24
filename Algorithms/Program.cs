@@ -11,7 +11,7 @@ namespace Algorithm_Practice
             2. Finding the minimum value in an array
             3. Finding the maximum value in an array
             4. Bubble sort (sorting elements in an array from lowest to highest)
-            5. Minimum distance
+            5. Minimum distance between two elements
             
 
             Input: Array of A[0...n-1] numbers
