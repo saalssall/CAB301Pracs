@@ -9,17 +9,19 @@ namespace Algorithm_Practice
             
             Big_O bigO = new Big_O();
             
+            //Finding leap year
             int year = 2024;
             Console.WriteLine(bigO.isLeapYear(year));
             Console.WriteLine("------------");
             
+            //Getting the sum of array elements
             int[] array2 = new[] { 1, 2, 3, 4 };
             Console.WriteLine(bigO.arraySum(array2));
             Console.WriteLine("------------");
             
+            //Chessboard space
             int n_grains = 512;
             Console.WriteLine(bigO.chessBoardSpace(n_grains));
-            
             List <string> some_string = new List<string>(){"apple", "banana", "avocado", "cherry", "apricot"};
             List <string> result =  bigO.SelectAStrings(some_string);
             // Print the result
@@ -28,10 +30,21 @@ namespace Algorithm_Practice
                 Console.WriteLine($"Strings starting with 'a': " + string.Join(", ", result));
             }
             Console.WriteLine("------------");
+            
+            //Getting the median of an array
             int [] array3 = { 2, 4, 7, 4, 5, 6, 7 };
-            
             Console.WriteLine(bigO.median(array3));
+            Console.WriteLine("------------");
+            int [] array4Binary = new []{ 1, 2, 3, 4, 5, 6, 7, 8, 9 };
+            int searching_Value = 3;
             
+            //Binary Search
+            Search search = new Search();
+            int res = search.binary_search(array4Binary, searching_Value);
+            string message = res != -1
+                ? $"Found at index {res}"
+                : "Value not found.";
+            Console.WriteLine(message);
              
             Console.WriteLine("------------");
             /*** Practicing for week1 content
