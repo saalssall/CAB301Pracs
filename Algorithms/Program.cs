@@ -6,6 +6,34 @@ namespace Algorithm_Practice
     {
         static void Main(string[] args)
         { 
+            
+            Big_O bigO = new Big_O();
+            
+            int year = 2024;
+            Console.WriteLine(bigO.isLeapYear(year));
+            Console.WriteLine("------------");
+            
+            int[] array2 = new[] { 1, 2, 3, 4 };
+            Console.WriteLine(bigO.arraySum(array2));
+            Console.WriteLine("------------");
+            
+            int n_grains = 512;
+            Console.WriteLine(bigO.chessBoardSpace(n_grains));
+            
+            List <string> some_string = new List<string>(){"apple", "banana", "avocado", "cherry", "apricot"};
+            List <string> result =  bigO.SelectAStrings(some_string);
+            // Print the result
+            foreach (var str in result)
+            {
+                Console.WriteLine($"Strings starting with 'a': " + string.Join(", ", result));
+            }
+            Console.WriteLine("------------");
+            int [] array3 = { 2, 4, 7, 4, 5, 6, 7 };
+            
+            Console.WriteLine(bigO.median(array3));
+            
+             
+            Console.WriteLine("------------");
             /*** Practicing for week1 content
             1. Checking whether a number in an array is even or odd
             2. Finding the minimum value in an array
@@ -233,8 +261,6 @@ namespace Algorithm_Practice
         
         Console.WriteLine("------------");
 
-       
-
         static int minDistance(int[] values)
         {
             int dmin = int.MaxValue;
@@ -255,9 +281,8 @@ namespace Algorithm_Practice
         int[] numbers1 = { 30, 40, 1, 90, 60, 50, 10 };
         int results = minDistance(numbers1);
         Console.WriteLine("The minimum distance is: {0:d}", results);
-        Console.Write("\nPress any key to continue . . . ");
-        Console.ReadKey();
-
+        
+        
         }
     }
 }
