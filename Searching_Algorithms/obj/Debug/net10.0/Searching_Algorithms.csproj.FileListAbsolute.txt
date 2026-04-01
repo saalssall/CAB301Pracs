@@ -1,0 +1,15 @@
+/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/CAB301-Practice/Searching_Algorithms/bin/Debug/net10.0/Searching_Algorithms
+/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/CAB301-Practice/Searching_Algorithms/bin/Debug/net10.0/Searching_Algorithms.deps.json
+/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/CAB301-Practice/Searching_Algorithms/bin/Debug/net10.0/Searching_Algorithms.runtimeconfig.json
+/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/CAB301-Practice/Searching_Algorithms/bin/Debug/net10.0/Searching_Algorithms.dll
+/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/CAB301-Practice/Searching_Algorithms/bin/Debug/net10.0/Searching_Algorithms.pdb
+/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/CAB301-Practice/Searching_Algorithms/obj/Debug/net10.0/Searching_Algorithms.GeneratedMSBuildEditorConfig.editorconfig
+/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/CAB301-Practice/Searching_Algorithms/obj/Debug/net10.0/Searching_Algorithms.AssemblyInfoInputs.cache
+/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/CAB301-Practice/Searching_Algorithms/obj/Debug/net10.0/Searching_Algorithms.AssemblyInfo.cs
+/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/CAB301-Practice/Searching_Algorithms/obj/Debug/net10.0/Searching_Algorithms.csproj.CoreCompileInputs.cache
+/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/CAB301-Practice/Searching_Algorithms/obj/Debug/net10.0/Searching_Algorithms.sourcelink.json
+/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/CAB301-Practice/Searching_Algorithms/obj/Debug/net10.0/Searching_Algorithms.dll
+/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/CAB301-Practice/Searching_Algorithms/obj/Debug/net10.0/refint/Searching_Algorithms.dll
+/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/CAB301-Practice/Searching_Algorithms/obj/Debug/net10.0/Searching_Algorithms.pdb
+/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/CAB301-Practice/Searching_Algorithms/obj/Debug/net10.0/Searching_Algorithms.genruntimeconfig.cache
+/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/CAB301-Practice/Searching_Algorithms/obj/Debug/net10.0/ref/Searching_Algorithms.dll
