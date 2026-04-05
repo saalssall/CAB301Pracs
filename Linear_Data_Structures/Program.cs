@@ -39,8 +39,19 @@ namespace Data_Structures
 
             Console.WriteLine("Peeking at the top of the stack the element is "+stack.peek());
             
-            Queues queue = new Queues();
-            queue.suming(2, 3);
+            Queue<int> queue = new Queue<int>();
+            
+            queue.Enqueue(1);
+            queue.Enqueue(2);
+            queue.Enqueue(3);
+            queue.Enqueue(4);
+            queue.Enqueue(5);
+            queue.Dequeue();
+            foreach (int i in queue)
+            {
+                Console.WriteLine("Elements in the queue: " + i);
+            }
+            
             Arrays newArr = new Arrays();
             
             LinkedLists linkedList = new LinkedLists();

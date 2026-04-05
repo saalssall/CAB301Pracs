@@ -41,12 +41,12 @@ public class Stacks
     public void push(int value)
     { 
         //ensure to check if stack is full
-        data[numElements] = value;
-        numElements++;
         if (numElements == capacity)
         {
             Console.WriteLine("Cannot push to the stack because it's full.");
         }
+        data[numElements] = value;
+        numElements++;
     }
 
     /// returns the element from the top of the stack and removes it
