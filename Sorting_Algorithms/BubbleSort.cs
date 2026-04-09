@@ -1,11 +1,9 @@
 using System;
 namespace Sorts;
 
-public class BubbleSort
+public class BubbleSortAlgorithm
 {
-    public static void bubbleSort(int[] arr)
-    {
-        /*** 1. Bubble sort (sorting elements in an array from lowest to highest)
+    /*** 1. Bubble sort (sorting elements in an array from lowest to highest)
         Input: numbers from the array
         Output: sorted array from lowest to highest
 
@@ -35,25 +33,25 @@ public class BubbleSort
 
         return A
         ***/
-
-        int[] sortArray = { 12, 43, 44, 3, 11, 49 };
-        int n = sortArray.Length;
+    
+    public void bubbleSort (int [] A, int n)
+    {
+        bool swwapped = true;
+        
         for (int i = 0; i < n - 1; i++)
         {
-            bool swapped = false;
+            swwapped = false;
             for (int j = 0; j < n - i - 1; j++)
             {
-                if (sortArray[j] > sortArray[j + 1])
+                if (A[j] > A[j + 1])
                 {
-                    int temp;
-                    temp = sortArray[j];
-                    sortArray[j] = sortArray[j + 1];
-                    sortArray[j + 1] = temp;
-                    swapped = true;
+                    int temp = A[j];
+                    A[j] = A [j + 1];
+                    A [j + 1] = temp;
+                    swwapped = true;
                 }
             }
-
-            if (!swapped)
+            if (!swwapped)
             {
                 break;
             }
