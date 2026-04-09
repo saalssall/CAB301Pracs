@@ -36,7 +36,7 @@ public class BubbleSortAlgorithm
     
     public void bubbleSort (int [] A, int n)
     {
-        bool swwapped = true;
+        bool swwapped;
         
         for (int i = 0; i < n - 1; i++)
         {
@@ -45,9 +45,8 @@ public class BubbleSortAlgorithm
             {
                 if (A[j] > A[j + 1])
                 {
-                    int temp = A[j];
-                    A[j] = A [j + 1];
-                    A [j + 1] = temp;
+                    //Deconstruction
+                    (A[j], A[j + 1] ) = (A[j + 1], A[j]);
                     swwapped = true;
                 }
             }

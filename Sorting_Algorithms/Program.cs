@@ -9,13 +9,10 @@ namespace Sorts
             int[] sortedArray = { 12, 43, 44, 3, 11, 49 };
             int [] reversedArray = {12, 11, 10, 9, 8, 7, 6, 5};
             int [] randomArray = {32, 11, 44, 2, 43, 22};
-
-
+            
             int[] sortedArray4Bubble = { 1, 2, 3, 4, 5, 6 };
             int[] unsortedArray = { 38, 12, 45, 5, 23, 2, 67, 16, 90, 8 };
-            
-            
-            
+            int[] unsortedArray4Selection = { 38, 12, 45, 5, 23, 2, 67, 16, 90, 8 };
             
             //Having a method for printing the array for insertion sort
             void PrintArray(int[] A)
@@ -79,6 +76,14 @@ namespace Sorts
             bubbleSort.bubbleSort(unsortedArray,  unsortedArray.Length);
             PrintArray(unsortedArray);
             Console.WriteLine("---------------");
+            
+            //Calling the selection sort algorithm
+            SelectionSortAlgorithm selectionSort = new SelectionSortAlgorithm();
+            Console.WriteLine("Before selection sort:");
+            PrintArray(unsortedArray4Selection);
+            Console.WriteLine("After selection sort:");
+            selectionSort.SelectionSort(unsortedArray4Selection,  unsortedArray4Selection.Length);
+            PrintArray(unsortedArray4Selection);
             
 
         }

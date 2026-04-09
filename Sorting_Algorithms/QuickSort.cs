@@ -51,9 +51,7 @@ public class QuickSortAlgorithm
         
     static void Swap(int[] arr, int a, int b)
     {
-        int temp = arr[a];
-        arr[a] = arr[b];
-        arr[b] = temp;
+        (arr[a], arr[b]) = (arr[b], arr[a]);
     }
     
 }
