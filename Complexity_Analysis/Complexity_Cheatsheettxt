@@ -1,0 +1,19 @@
+“Concrete worst-case” counting template
+
+    Searching: count key comparisons of the form
+    A[i] < key, A[i] == key, A[i] > key.
+    Sorting: count element comparisons of the form
+    A[i] > A[j]
+    (and optionally swaps separately).
+    String matching: count character comparisons of the form
+    text[i+j] == pattern[j].
+
+
+     Recipe:
+     
+    1. Identify the loop(s) that do comparisons.
+    2. Write a worst-case bound on comparisons per loop.
+    3. If there are nested loops or repeated passes, use a summation.
+    4. Simplify algebraically to a polynomial/log form.
+    5. Convert to Big-O by discarding constants and lower-order terms
+    (consistent with Big-O being an upper-bound up to constant factors).

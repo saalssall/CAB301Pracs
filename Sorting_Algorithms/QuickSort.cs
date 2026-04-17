@@ -26,14 +26,14 @@ public class QuickSortAlgorithm
     {
         if (low < high)
         {
-            int p = partition(arr, low, high);
+            int p = Partition(arr, low, high);
 
             QuickSort(arr, low, p - 1);
             QuickSort(arr, p + 1, high + 1);
         }
     }
 
-    static int partition(int[] arr, int low, int high)
+    static int Partition(int[] arr, int low, int high)
     {
         int pivot = arr[high];
         int i = low - 1;
