@@ -161,7 +161,7 @@ namespace Recursion
                     // statement 2
                     printFun(test - 1);
 
-                    Console.Write(test + " ");
+                    Console.WriteLine(test + " ");
                     return -1;
                 }
             }
@@ -169,9 +169,9 @@ namespace Recursion
             // Driver Code
             int test = 3;
             printFun(test);
-
-
-            //Recursion
+            Console.WriteLine("------------");
+            
+            //Recursion to find the max of an array
             static int Max(int[] array, int index = 0)
             {
                 Console.WriteLine("RECURSION");
@@ -190,8 +190,31 @@ namespace Recursion
                     return maxOfRemainder;
             }
 
-            int result = Max(g, 1);
+            int [] r = {3, 1, 4, 2};
+            int result = Max(r, 1);
             Console.WriteLine(result);
+            Console.WriteLine("------------");
+            
+            
+            //Addressing overlapping subproblem with memoization
+            static int Fib(int n, Dictionary<int, int> memo)
+            {
+                // Base case
+                if (n == 0 || n == 1)
+                    return n;
+
+                // Check if fib(n) was already computed
+                if (!memo.ContainsKey(n))
+                {
+                    // If not in memo, compute and store it
+                    memo[n] = Fib(n - 2, memo) + Fib(n - 1, memo);
+                }
+
+                // Return the result from memo
+                return memo[n];
+            }
+            Dictionary<int, int> memo = new Dictionary<int, int>();
+            Console.WriteLine(Fib(10, memo));
         }
     }
 }
