@@ -214,7 +214,33 @@ namespace Recursion
                 return memo[n];
             }
             Dictionary<int, int> memo = new Dictionary<int, int>();
-            Console.WriteLine(Fib(10, memo));
+            Console.WriteLine("Memoization: " + Fib(10, memo));
+            Console.WriteLine("------------");
+            
+            static int FibIteration(int n)
+            {
+                if (n == 0)
+                    return 0;
+
+                // a and b start with the first two numbers in the series
+                int a = 0;
+                int b = 1;
+
+                // Loop from 1 until n
+                for (int i = 1; i < n; i++)
+                {
+                    // a and b each move up to the next numbers in the series
+                    int temp = a;
+                    a = b;
+                    b = temp + a;
+                }
+
+                return b;
+            }
+            Console.WriteLine("Iteration: " + FibIteration(10));
+            
         }
+        
+       
     }
 }
