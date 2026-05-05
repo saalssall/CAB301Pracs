@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Complexity_Analysis")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ca5a029fec5b91f0e11d18f9b62a3742e16328a1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+acc56c692cf3530c1217ed706d0078d611454118")]
 [assembly: System.Reflection.AssemblyProductAttribute("Complexity_Analysis")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Complexity_Analysis")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
