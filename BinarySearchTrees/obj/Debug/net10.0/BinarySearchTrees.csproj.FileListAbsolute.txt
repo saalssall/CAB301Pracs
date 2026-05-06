@@ -1,0 +1,15 @@
+/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/CAB301-Practice/BinarySearchTrees/bin/Debug/net10.0/BinarySearchTrees
+/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/CAB301-Practice/BinarySearchTrees/bin/Debug/net10.0/BinarySearchTrees.deps.json
+/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/CAB301-Practice/BinarySearchTrees/bin/Debug/net10.0/BinarySearchTrees.runtimeconfig.json
+/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/CAB301-Practice/BinarySearchTrees/bin/Debug/net10.0/BinarySearchTrees.dll
+/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/CAB301-Practice/BinarySearchTrees/bin/Debug/net10.0/BinarySearchTrees.pdb
+/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/CAB301-Practice/BinarySearchTrees/obj/Debug/net10.0/BinarySearchTrees.GeneratedMSBuildEditorConfig.editorconfig
+/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/CAB301-Practice/BinarySearchTrees/obj/Debug/net10.0/BinarySearchTrees.AssemblyInfoInputs.cache
+/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/CAB301-Practice/BinarySearchTrees/obj/Debug/net10.0/BinarySearchTrees.AssemblyInfo.cs
+/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/CAB301-Practice/BinarySearchTrees/obj/Debug/net10.0/BinarySearchTrees.csproj.CoreCompileInputs.cache
+/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/CAB301-Practice/BinarySearchTrees/obj/Debug/net10.0/BinarySearchTrees.sourcelink.json
+/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/CAB301-Practice/BinarySearchTrees/obj/Debug/net10.0/BinarySearchTrees.dll
+/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/CAB301-Practice/BinarySearchTrees/obj/Debug/net10.0/refint/BinarySearchTrees.dll
+/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/CAB301-Practice/BinarySearchTrees/obj/Debug/net10.0/BinarySearchTrees.pdb
+/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/CAB301-Practice/BinarySearchTrees/obj/Debug/net10.0/BinarySearchTrees.genruntimeconfig.cache
+/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/CAB301-Practice/BinarySearchTrees/obj/Debug/net10.0/ref/BinarySearchTrees.dll
