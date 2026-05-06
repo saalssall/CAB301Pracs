@@ -4,6 +4,13 @@ public class Searching
 {
     
     //Searching takes O(log N) steps for a balanced tree.
+    
+    /// <summary>
+    /// Searching for a value in the tree
+    /// </summary>
+    /// <param name="searchValue"></param>
+    /// <param name="node"></param>
+    /// <returns></returns>
     public TreeNode? Search(int searchValue, TreeNode? node)
     {
         // Base case: If the node is nonexistent
@@ -22,6 +29,9 @@ public class Searching
             return Search(searchValue, node.Right);
     }
 
+    /// <summary>
+    /// Run
+    /// </summary>
     public void Run()
     {
         TreeNode node1 = new TreeNode(25);
