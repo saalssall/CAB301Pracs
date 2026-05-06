@@ -1,24 +1,44 @@
 # Programming Practice Repository
 
-This repository contains my programming practice work, including exercises, small experiments, and practical tasks completed while learning and improving my software development skills.
+This repository contains my practice work on algorithms, data structures, 
+and complexity analysis completed as part of my software development studies.
 
 ## Purpose
-
 The goal of this repository is to:
+- Practice and implement fundamental algorithms
+- Explore and understand core data structures
+- Analyse time and space complexity using Big-O notation
+- Track progress while learning computer science concepts
 
-- Practice programming concepts and problem solving
-- Implement algorithms and small coding exercises
-- Experiment with new technologies and tools
-- Store solutions for practical tasks and coursework
-- Track progress while learning different programming topics
+## Topics Covered
 
-## Repository Structure
+### Algorithms
+- Sorting Algorithms
+- Linear Search
+- Binary Search
+- Substring Search (Naive, Heuristic, Sunday)
 
-The repository is organized into folders based on the type of work or topic.
+### Data Structures
+- Arrays
+- Linked Lists
+- Double Linked Lists
+- Stacks
+- Queues
+- Binary Search Trees
+- Graphs
 
-## Requirement
+### Complexity Analysis
+- Big-O Notation
+- Time Complexity
+- Space Complexity
+- Dynamic Programming
+- Recursion
 
-This repository primarily uses:
-
+## Technologies Used
 - **C#**
 - **.NET**
+
+## References
+- Wengrow, J. (2020). *A Common-Sense Guide to Data Structures and Algorithms*. 
+  Pragmatic Bookshelf. 2nd Edition.
+- Lecture Notes. (2026). CAB301, Queensland University of Technology.
