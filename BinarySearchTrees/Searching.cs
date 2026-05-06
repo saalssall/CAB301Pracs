@@ -2,5 +2,35 @@ namespace MyNamespace;
 
 public class Searching
 {
-    
+    public TreeNode? Search(int searchValue, TreeNode? node)
+    {
+        // Base case: If the node is nonexistent
+        // or we've found the value we're looking for:
+        if (node == null || node.Value == searchValue)
+            return node;
+
+        // If the value is less than the current node, perform
+        // search on the left child:
+        else if (searchValue < node.Value)
+            return Search(searchValue, node.Left);
+
+        // If the value is greater than the current node, perform
+        // search on the right child:
+        else // searchValue > node.Value
+            return Search(searchValue, node.Right);
+    }
+
+    public void Run()
+    {
+        TreeNode node1 = new TreeNode(25);
+        TreeNode node2 = new TreeNode(75);
+        TreeNode root = new TreeNode(50, node1, node2);
+        TreeNode? result = Search(30, root);
+
+        //Check if the value exists
+        if (result != null)
+            Console.WriteLine($"Found: {result.Value}");
+        else 
+            Console.WriteLine("Value not found");
+    }
 }

@@ -6,13 +6,10 @@ namespace MyNamespace
     {
         static void Main(string[] args)
         {
-            TreeNode node1 = new TreeNode(25);
-            TreeNode node2 = new TreeNode(75);
-            TreeNode root = new TreeNode(50, node1, node2);
-           
-            Console.WriteLine($"Root: {root.Value}");
-            Console.WriteLine($"Left: {root.Left?.Value}");
-            Console.WriteLine($"Right: {root.Right?.Value}");
+            TreeNode root = new TreeNode(1);
+            root.Run();
+            Searching search = new Searching();
+            search.Run();
             
         }
     }
