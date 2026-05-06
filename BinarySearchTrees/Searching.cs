@@ -2,6 +2,8 @@ namespace MyNamespace;
 
 public class Searching
 {
+    
+    //Searching takes O(log N) steps for a balanced tree.
     public TreeNode? Search(int searchValue, TreeNode? node)
     {
         // Base case: If the node is nonexistent
@@ -25,7 +27,7 @@ public class Searching
         TreeNode node1 = new TreeNode(25);
         TreeNode node2 = new TreeNode(75);
         TreeNode root = new TreeNode(50, node1, node2);
-        TreeNode? result = Search(30, root);
+        TreeNode? result = Search(25, root);
 
         //Check if the value exists
         if (result != null)
