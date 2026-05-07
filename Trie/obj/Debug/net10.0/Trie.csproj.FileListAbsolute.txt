@@ -1,0 +1,15 @@
+/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/CAB301-Practice/Trie/bin/Debug/net10.0/Trie
+/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/CAB301-Practice/Trie/bin/Debug/net10.0/Trie.deps.json
+/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/CAB301-Practice/Trie/bin/Debug/net10.0/Trie.runtimeconfig.json
+/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/CAB301-Practice/Trie/bin/Debug/net10.0/Trie.dll
+/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/CAB301-Practice/Trie/bin/Debug/net10.0/Trie.pdb
+/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/CAB301-Practice/Trie/obj/Debug/net10.0/Trie.GeneratedMSBuildEditorConfig.editorconfig
+/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/CAB301-Practice/Trie/obj/Debug/net10.0/Trie.AssemblyInfoInputs.cache
+/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/CAB301-Practice/Trie/obj/Debug/net10.0/Trie.AssemblyInfo.cs
+/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/CAB301-Practice/Trie/obj/Debug/net10.0/Trie.csproj.CoreCompileInputs.cache
+/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/CAB301-Practice/Trie/obj/Debug/net10.0/Trie.sourcelink.json
+/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/CAB301-Practice/Trie/obj/Debug/net10.0/Trie.dll
+/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/CAB301-Practice/Trie/obj/Debug/net10.0/refint/Trie.dll
+/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/CAB301-Practice/Trie/obj/Debug/net10.0/Trie.pdb
+/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/CAB301-Practice/Trie/obj/Debug/net10.0/Trie.genruntimeconfig.cache
+/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/CAB301-Practice/Trie/obj/Debug/net10.0/ref/Trie.dll
