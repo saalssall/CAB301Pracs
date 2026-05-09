@@ -429,3 +429,163 @@ Elements left of pivot do not need full ordering initially.
 1. Identify first, middle, and last elements
 2. Sort the 3 elements
 3. Hide pivot before partitioning
+
+# Week 06
+
+## Big-O Complexity
+
+- When evaluating Big-O complexity, always analyse the **worst-case scenario**
+
+- Worst-case analysis shows how an algorithm behaves under the hardest conditions
+
+---
+
+## Quick Sort
+
+### Pivot Choice
+
+- Pivot selection determines the performance of quicksort
+
+- Good pivot choices improve efficiency
+
+- Poor pivot choices can reduce performance significantly
+
+---
+
+## Stable Algorithms
+
+A stable algorithm:
+
+- Does not reorder duplicate values
+
+---
+
+## Merge Sort
+
+### Characteristics
+
+- Stable sorting algorithm
+
+- Requires additional memory
+
+---
+
+## Randomized Algorithms
+
+### Purpose
+
+- Help avoid bad behaviour
+
+- Reduce chances of poor worst-case performance
+
+---
+
+# Week 08 — Dynamic Programming
+
+## Dynamic Programming
+
+Dynamic programming is the process of optimizing recursive problems that contain overlapping subproblems.
+
+---
+
+## Subproblems
+
+A subproblem occurs when a larger problem is solved using smaller versions of the same problem.
+
+---
+
+## Overlapping Subproblems
+
+Overlapping subproblems occur when recursive calls repeatedly solve the same smaller problems.
+
+### Fibonacci Example
+
+In Fibonacci recursion:
+
+- `fib(n-1)` and `fib(n-2)` repeatedly call many of the same functions
+
+This repeated work creates overlapping subproblems.
+
+---
+
+## Solving Overlapping Subproblems
+
+One major technique is **memoization**.
+
+---
+
+## 1. Memoization
+
+### Purpose
+
+- Reduces recursive calls
+
+- Avoids recomputing previously solved problems
+
+### Method
+
+- Store computed results in a hash table
+
+- Reuse stored values later
+
+### Implementation
+
+- Pass the hash table as a second parameter to recursive functions
+
+---
+
+## 2. Bottom-Up Approach
+
+### Idea
+
+Instead of recursion:
+
+- Use loops or iteration
+
+- Solve smaller problems first and build upward
+
+---
+
+# Sunday Algorithm
+
+## Key Ideas
+
+- `j` represents what we are searching for
+
+- Initial move is:
+
+$begin:math:display$
+
+j \+ 1
+
+$end:math:display$
+
+- Movement depends on:
+
+$begin:math:display$
+
+j \- i
+
+$end:math:display$
+
+- The algorithm uses a dictionary for comparisons
+
+---
+
+## Process
+
+1. Compare the first character
+
+2. Compare the last character
+
+3. Check whether the character exists in the dictionary
+
+4. Subtract its index from `j` to determine movement
+
+---
+
+## Characteristics
+
+- Very efficient string searching algorithm
+
+---
