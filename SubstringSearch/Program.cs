@@ -11,6 +11,9 @@ namespace SubstringSearch
       Console.WriteLine(ns.Solve("hello world", "world")); //  6
       Console.WriteLine(ns.Solve("hello world", "xyz"));   // -1
       Console.WriteLine(ns.Solve("abcabc",      "abc"));   //  0
+      
+      int index = SundaySearch.Search("world", "hello world");
+      Console.WriteLine(index); // 6
     }
   }
 }
