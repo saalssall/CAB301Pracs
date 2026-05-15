@@ -549,7 +549,7 @@ A stable algorithm:
 
 ---
 
-# Week 08 — Dynamic Programming
+# Week 07 — Dynamic Programming
 
 ## Dynamic Programming
 Dynamic programming is the process of optimizing recursive problems that have overlapping subproblems.
@@ -610,27 +610,10 @@ Start at the problem you want to solve, then solve subproblems as required.
 - Requires more detailed analysis during design.
 ---
 
+## Week08 - Substring Search:
+
 # Sunday Algorithm
 
-## Key Ideas
-
-- `j` represents what we are searching for
-
-- Initial move is:
-
-$begin:math:display$
-
-j \+ 1
-
-$end:math:display$
-
-- Movement depends on:
-
-$begin:math:display$
-
-j \- i
-
-$end:math:display$
 
 - The algorithm uses a dictionary for comparisons
 
@@ -653,3 +636,13 @@ $end:math:display$
 - Very efficient string searching algorithm
 
 ---
+
+## Week09 - Trees:
+
+## Week10 - Graphs:
+
+## Week11 - Shortest Path Algorithm:
+
+
+
+
