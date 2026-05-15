@@ -610,9 +610,9 @@ Start at the problem you want to solve, then solve subproblems as required.
 - Requires more detailed analysis during design.
 ---
 
-## Week08 - Substring Search:
+# Week08 - Substring Search:
 
-# Sunday Algorithm
+## Sunday Algorithm
 
 Sunday's algorithm works similarly to the bad character heuristic, 
 but instead of looking at a mismatched character inside the current window, it looks at the character just past the end of the current window. 
@@ -624,7 +624,10 @@ It then checks if that character appears in the pattern — if not, skip past it
 - Testing equality backwards as it improves efficiency compared to testing equality forwards
 - A technique used to speed up algorithms 
 
+## Bad Character Heuristic:
 
+After finding a bad character (c) in the main string that does not match the pattern (p), we shift the entire pattern until the mistmatch becomes a match if a mismatch happens. Otherwise, pattern moves past the bad character. 
+- A kind of Boyer Moore algorithm
 
 ---
 
